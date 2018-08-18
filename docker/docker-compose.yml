@@ -1,0 +1,12 @@
+version: '3'
+services:
+  dev:
+    working_dir: /app
+    build: ./dev
+    tty: true
+    env_file:
+    - .env
+    ports:
+    - ${NODE_PORT}:3000
+    volumes:
+    - ../:/app

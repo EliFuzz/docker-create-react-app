@@ -1,0 +1,33 @@
+{
+  "name": "docker-create-react-app",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EliFuzz/docker-create-react-app.git"
+  },
+  "description": "This is a docker for create-react-app with jarn pre-installed",
+  "scripts": {
+    "start": "cd app && yarn start"
+  },
+  "author": "Roman Glushach <roman.glushach@gmail.com> (https://github.com/EliFuzz)",
+  "homepage": "https://github.com/EliFuzz/docker-create-react-app",
+  "keywords": [
+    "slim",
+    "compact",
+    "small",
+    "alpine",
+    "docker",
+    "dockerfile",
+    "docker-compose",
+    "docker compose",
+    "node",
+    "nodejs",
+    "yarn",
+    "react",
+    "create-react-app",
+    "boilerplate"
+  ],
+  "license": "gpl-3.0",
+  "devDependencies": {
+  }
+}
